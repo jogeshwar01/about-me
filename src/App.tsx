@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8 dark:bg-zinc-950 bg-white text-gray-900 dark:text-zinc-200">
-      <div className="max-w-[60ch] mx-auto w-full space-y-6 text-center">
+      <div className="max-w-[60ch] mx-auto w-full text-center text-[18px]">
         <h1
           onMouseEnter={() => setHovering(true)}
           onMouseLeave={() => setHovering(false)}
@@ -29,17 +29,25 @@ function App() {
             jogeshwar01
           </span>
         </h1>
-        <div className="flex gap-4 justify-center">
+
+        <div className="text-[14px] text-gray-500 dark:text-gray-400  mb-[25px]">
+          I'm a builder, engineer, and crypto guy, interested in exchange
+          engineering and web3 infrastructure.
+        </div>
+
+        <div className="w-48 h-[1px] bg-gray-300 dark:bg-gray-700 mx-auto"></div>
+
+        <div className="flex gap-6 justify-center mt-[25px] text-[14px]">
           <a
             href="https://x.com/jogeshwar01"
-            className="text-gray-400 dark:text-gray-500 hover:text-blue-500 transition-colors duration-200"
+            className="text-gray-400 dark:text-gray-500 hover:text-blue-500 transition-colors duration-200 flex items-center gap-2"
             target="_blank"
           >
             @jogeshwar01
           </a>
           <a
             href="https://github.com/jogeshwar01"
-            className="text-gray-400 dark:text-gray-500 hover:text-blue-500 transition-colors duration-200"
+            className="text-gray-400 dark:text-gray-500 hover:text-blue-500 transition-colors duration-200 flex items-center gap-2"
             target="_blank"
           >
             github
